@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /projects
+
+# Bloquear recursos innecesarios
+Disallow: /assets/scss/
+Disallow: /assets/merch/
+
+# Especificar User-agents
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Disallow: /
