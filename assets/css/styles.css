@@ -444,3 +444,113 @@ nav {
   bottom: 0;
   overflow: hidden;
   top: 0; }
+
+/* Audio Player */
+.section--player {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  padding: 64px 0; }
+
+.audio-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); }
+  @media (min-width: 600px) {
+    .audio-player {
+      flex-direction: row;
+      max-width: 600px;
+      gap: 32px; } }
+
+.audio-player__cover {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); }
+  .audio-player__cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.audio-player__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%; }
+  @media (min-width: 600px) {
+    .audio-player__info {
+      align-items: flex-start;
+      text-align: left; } }
+
+.audio-player__title {
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: 700;
+  color: #e0da0f;
+  margin: 0;
+  line-height: 1.2; }
+
+.audio-player__artist {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0; }
+
+.audio-player__remix {
+  font-size: 14px;
+  color: #e0da0f;
+  margin: 0 0 20px 0;
+  font-weight: 500; }
+
+.audio-player__controls {
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+  border-radius: 20px; }
+  .audio-player__controls::-webkit-media-controls-panel {
+    background: rgba(255, 255, 255, 0.1); }
+  .audio-player__controls::-webkit-media-controls-play-button {
+    background-color: #e0da0f;
+    border-radius: 50%; }
+
+.section--player-fullpage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+
+.home__nav--light {
+  position: absolute;
+  top: 0; }
+  .home__nav--light a {
+    color: #fff;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px; }
+    .home__nav--light a:hover {
+      opacity: 0.8; }
+
+.back-link .material-icons {
+  font-size: 20px; }
+
+.music-footer {
+  position: absolute;
+  bottom: 24px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease; }
+  .music-footer:hover {
+    opacity: 1; }
+  .music-footer img {
+    filter: brightness(0) invert(1); }
