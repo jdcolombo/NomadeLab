@@ -2,12 +2,12 @@
   "redirects": [
     {
       "source": "/assets/music/:path(.*[Hh]oudini.*\\.m4a)",
-      "destination": "/music/",
+      "destination": "https://www.youtube.com/watch?v=qrL0EmhaCmM",
       "permanent": true
     },
     {
       "source": "/assets/music/Houdini%20-%20Dua%20Lipa%20%26%20Mind%20Enterprises%20(Chule%20Mix).m4a",
-      "destination": "/music/",
+      "destination": "https://www.youtube.com/watch?v=qrL0EmhaCmM",
       "permanent": true
     }
   ]
