@@ -1,12 +1,12 @@
 {
   "redirects": [
     {
-      "source": "/assets/music/Houdini%20-%20Dua%20Lipa%20&%20Mind%20Enterprises%20(Chule%20Mix).m4a",
+      "source": "/assets/music/:path(.*[Hh]oudini.*\\.m4a)",
       "destination": "/music/",
       "permanent": true
     },
     {
-      "source": "/assets/music/Houdini - Dua Lipa & Mind Enterprises (Chule Mix).m4a",
+      "source": "/assets/music/Houdini%20-%20Dua%20Lipa%20%26%20Mind%20Enterprises%20(Chule%20Mix).m4a",
       "destination": "/music/",
       "permanent": true
     }
